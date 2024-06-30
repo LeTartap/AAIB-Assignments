@@ -28,44 +28,29 @@ This repository contains all the materials and code for the assignments in the A
 ### Assignment 1: Data Preprocessing and Exploration
 
 - **Description**: Focuses on data preprocessing tasks, including handling missing values, encoding categorical variables, and data visualization.
-- **Files**:
-  - `Assignment1_DataPreprocessing.ipynb`
-  - `Assignment1_Report.pdf`
 
 ### Assignment 2: Customer Segmentation with Clustering
 
 - **Description**: Implements various clustering algorithms for customer segmentation and compares their performance.
-- **Files**:
-  - `Assignment2_Clustering.ipynb`
-  - `Assignment2_Report.pdf`
 
 ### Assignment 3: Supervised Learning Models
 
 - **Description**: Implements several supervised learning models, including Logistic Regression, SVM, Decision Trees, Random Forests, AdaBoost, and Gradient Boosting.
-- **Files**:
-  - `Assignment3_SupervisedLearning.ipynb`
-  - `Assignment3_Report.pdf`
 
-### Assignment 4: Ensemble and Hybrid Models
 
-- **Description**: Focuses on building ensemble models like Voting Classifier and hybrid models combining different algorithms.
-- **Files**:
-  - `Assignment4_EnsembleModels.ipynb`
-  - `Assignment4_Report.pdf`
+### Assignment 4: Logistic Regression 
 
-### Assignment 5: Churn Prediction Model
+- **Description**: Implements a logistic regression model to predict advertising click-through rates and evaluates the model's performance.
 
-- **Description**: Develops a model to predict customer churn using various machine learning techniques and evaluates their performance.
-- **Files**:
-  - `Assignment5_ChurnPrediction.ipynb`
-  - `Assignment5_Report.pdf`
+### Assignment 5: Hotel Customer Reservation Prediction
 
-### Assignment 6
+- **Description**: Compares different models for predicting hotel customer reservations and analyzes the results.
+
+
+### Assignment 6: NLP Introduction 
 
 - **Description**: Discusses the applications of AI in business and the criteria for selecting models for deployment, including a final project implementation.
-- **Files**:
-  - `Assignment6_AIApplications.ipynb`
-  - `Assignment6_Report.pdf`
+
 
 ## Getting Started
 
@@ -73,28 +58,32 @@ To get started with the repository, clone it to your local machine using the fol
 
 ```bash
 git clone https://github.com/your-username/ai-business-assignments.git
+```
+## Requirements
+### The project requires the following software and Python packages:
 
-Requirements
-The project requires the following software and Python packages:
+- Python 3.6 or higher
+- Jupyter Notebook
+- scikit-learn
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- plotly
+- imbalanced-learn
+- xgboost
 
-Python 3.6 or higher
-Jupyter Notebook
-scikit-learn
-pandas
-numpy
-matplotlib
-seaborn
-plotly
-imbalanced-learn
-xgboost
 You can install the required packages using pip:
+```
+pip install -r requirements.txt
+```
 
-Usage
+## Usage
 Navigate to the directory of the assignment you want to work on.
 Open the Jupyter Notebook file (.ipynb) in Jupyter Notebook or JupyterLab.
 Run the cells in the notebook to execute the code and see the results.
 Contributing
 Contributions are welcome! If you have any suggestions or improvements, please create a pull request or open an issue in this repository.
 
-License
+## License
 This repository is licensed under the MIT License. See the LICENSE file for more information.
